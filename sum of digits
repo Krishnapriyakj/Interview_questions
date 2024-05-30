@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int num,digit,s=0;
+scanf("%d",&num);
+while(num>0)
+{
+    digit=num%10;
+   s = s*10+digit;
+    num=num/10;
+}
+printf("%d",s);
+}
